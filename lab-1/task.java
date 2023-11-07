@@ -21,7 +21,7 @@ public class task{
         // Сортування методом бульбашки по спаданню модулів
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - i - 1; j++) {
-                if (Math.abs(numbers[j]) < Math.abs(numbers[j + 1])) {
+                if (Point.abs(numbers[j]) < Point.abs(numbers[j + 1])) {
                     // Обмін елементів
                     int temp = numbers[j];
                     numbers[j] = numbers[j + 1];
